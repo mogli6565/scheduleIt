@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+    font-family: "Open Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(assets/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .loginImg {
+    display: none;
+  }
+ .loginCard{
+   height: 85vh;
+ }
+ .dashboardCard {
+   margin-top: 10%;
+ }
+}
